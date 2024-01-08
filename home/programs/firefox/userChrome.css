@@ -1,0 +1,24 @@
+#context-inspect-a11y,
+#context-inspect,
+#context-inspect + menuseparator,
+/* #inspect-separator, */
+#context-viewsource,
+#context-viewinfo,
+#context-sep-viewsource,
+#context-savelinktopocket,
+#context-pocket,
+#context-bookmarklink,
+#context-openlink,
+#context-take-screenshot,
+#context-openlinkprivate,
+#context-sendimage,
+#context-sendbackground,
+#context-sendlinktodevice,
+#context-sendlinktodevice + menuseparator,
+#context-copylink,
+#context-stripOnShareLink,
+#context-savelink,
+#context-sep-screenshots {
+    display:none!important;
+}
+

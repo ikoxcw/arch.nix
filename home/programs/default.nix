@@ -1,0 +1,18 @@
+[
+  ./ai
+  ./firefox
+  ./yazi
+  ./yt-dlp
+  ./youtube-tui
+  ./lazygit
+  ./music
+  ./neofetch
+  ./obs-studio
+  ./mpv
+  ./notice
+  ./waybar
+  ./fcitx5
+  ./gtk
+  ./launcher
+  ./scripts
+]

@@ -1,0 +1,19 @@
+{ pkgs, ... }:
+{
+  programs = {
+    bash = {
+      enable = true;
+      initExtra = ''
+        	  	export PATH="$PATH:$HOME/.local/bin:$HOME/go/bin:$HOME/.nix-profile/bin/"
+        		# export XDG_DATA_DIRS="$XDG_DATA_DIRS:$HOME/.nix-profile/share/"
+            	export ikoxcw=/home/ikoxcw/
+              	if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+                  	export GTK_THEME=Catppuccin-Frappe-Pink          
+                  	# export GTK_THEME=Catppuccin-Latte-Green
+                  	# export GTK_THEME=Nordic
+                  	exec  Hyprland
+              	fi
+        	  '';
+    };
+  };
+}

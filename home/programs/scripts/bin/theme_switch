@@ -1,0 +1,13 @@
+#!/bin/fish
+
+
+
+	#export GTK_THEME=Catppuccin-Frappe-Pink
+	export GTK_THEME=Catppuccin-Latte-Green
+	cd ~
+	rm $HOME/modules/conf
+	ln -s /home/kotori/modules/themes/dark/ $HOME/modules/conf
+	#ln -s /home/kotori/modules/themes/light/ $HOME/modules/conf
+	rm $HOME/.local/share/fcitx5/themes/Catppuccin/theme.conf
+	ln -s /home/kotori/.config/fcitx5/theme.conf $HOME/.local/share/fcitx5/themes/Catppuccin/theme.conf
+	launch_waybar 
